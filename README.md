@@ -1,19 +1,19 @@
-# Travel & Expense Budget Allocation Optimization
+# Travel & Entertainment Expense Budget Allocation Optimization
 
-An anonymized finance internship case study by **Jayden Myers** focused on improving travel and expense budget allocation through multi-factor financial modeling.
+An anonymized finance internship case study by **Jayden Myers** focused on improving travel and entertainment expense budget allocation through multi-factor financial modeling.
 
 ## Project overview
 
-The legacy planning approach relied heavily on a basic cost index, which did not fully capture how customer density, local cost pressure, travel distance, and workforce composition affected T&E needs across markets.
+The existing planning approach relied heavily on a basic cost index, which did not fully capture how customer density, local costs, travel distance, and workforce composition affected regional T&E needs.
 
-I developed separate cost and travel-difficulty indexes, compared them with the existing planning signal, tested the results for outliers and sensitivity, and structured the outputs for recurring planning cycles.
+I developed separate cost and travel-difficulty indexes, compared them with the existing planning index, tested the results for outliers and sensitivity, and structured the outputs for recurring planning cycles. The analysis supported reallocating resources in both directions: increasing support where needed and reducing or rebalancing it elsewhere.
 
 ## Selected results
 
 - Improved forecast accuracy by **35%**
-- Identified approximately **4% higher cost pressure** in the most heavily staffed market group
-- Identified approximately **10% higher travel difficulty** among the highest-staffed markets
-- Observed a **10x+ range** in targeted spend per head, demonstrating why headcount alone was insufficient
+- Identified a **3.6% cost-index adjustment** in the most heavily staffed market group
+- Identified a **9.5% travel-difficulty adjustment** among the highest-staffed markets
+- Observed a **10x+ range** in targeted spend per head, showing why resources should be adjusted to regional needs
 
 ## Skills demonstrated
 
