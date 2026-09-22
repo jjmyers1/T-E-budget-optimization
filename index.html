@@ -1,0 +1,223 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Jayden Myers' anonymized finance internship case study on travel and expense budget allocation optimization."
+    />
+    <title>Travel & Expense Budget Allocation Optimization | Jayden Myers</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Back to top">JM</a>
+      <nav aria-label="Primary navigation">
+        <a href="#overview">Overview</a>
+        <a href="#approach">Approach</a>
+        <a href="#impact">Impact</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">FINANCE PORTFOLIO CASE STUDY</p>
+          <h1>Travel &amp; Expense<br />Budget Allocation<br /><span>Optimization</span></h1>
+          <p class="hero-summary">
+            A multi-factor planning framework designed to improve how travel and
+            expense budgets reflect local cost pressure, customer density, travel
+            difficulty, and workforce composition.
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="#overview">Explore the project</a>
+            <a
+              class="button secondary"
+              href="assets/Jayden_Myers_TandE_Budget_Optimization_Case_Study.pdf"
+              download
+            >Download PDF</a>
+          </div>
+        </div>
+
+        <aside class="hero-panel" aria-label="Project overview">
+          <p class="panel-label">PROJECT SNAPSHOT</p>
+          <dl>
+            <div>
+              <dt>Role</dt>
+              <dd>Finance Intern</dd>
+            </div>
+            <div>
+              <dt>Business context</dt>
+              <dd>Fortune 50 home improvement retailer</dd>
+            </div>
+            <div>
+              <dt>Focus</dt>
+              <dd>FP&amp;A, budgeting, modeling, and decision support</dd>
+            </div>
+            <div>
+              <dt>Tools</dt>
+              <dd>Excel, financial modeling, variance analysis</dd>
+            </div>
+          </dl>
+        </aside>
+      </section>
+
+      <section class="metrics" aria-label="Selected results">
+        <article>
+          <strong>35%</strong>
+          <span>Improvement in forecast accuracy</span>
+        </article>
+        <article>
+          <strong>~4%</strong>
+          <span>Higher cost pressure in the most staffed group</span>
+        </article>
+        <article>
+          <strong>~10%</strong>
+          <span>Higher travel difficulty in top-staffed markets</span>
+        </article>
+        <article>
+          <strong>10x+</strong>
+          <span>Range observed in targeted spend per head</span>
+        </article>
+      </section>
+
+      <section class="section two-column" id="overview">
+        <div>
+          <p class="eyebrow">THE CHALLENGE</p>
+          <h2>A single cost index could not tell the full story.</h2>
+        </div>
+        <div class="body-copy">
+          <p>
+            The existing planning approach relied heavily on a basic cost signal.
+            That made it difficult to account for markets with similar staffing but
+            very different service geographies, customer concentrations, local
+            prices, and role-level travel requirements.
+          </p>
+          <p>
+            My objective was to create an easy-to-use, repeatable process that
+            separated cost pressure from travel difficulty and could be integrated
+            into existing planning templates.
+          </p>
+        </div>
+      </section>
+
+      <section class="section approach" id="approach">
+        <div class="section-heading">
+          <p class="eyebrow">MODELING APPROACH</p>
+          <h2>From raw operating differences to a clearer planning signal.</h2>
+          <p>
+            I combined four business drivers and tested the resulting indexes for
+            outliers, sensitivity, and usability.
+          </p>
+        </div>
+
+        <div class="drivers">
+          <article>
+            <span>01</span>
+            <h3>Customer density</h3>
+            <p>Captured the concentration of demand and service activity.</p>
+          </article>
+          <article>
+            <span>02</span>
+            <h3>Cost of living</h3>
+            <p>Reflected local price pressure affecting trip costs.</p>
+          </article>
+          <article>
+            <span>03</span>
+            <h3>Travel distance</h3>
+            <p>Measured separation across each service geography.</p>
+          </article>
+          <article>
+            <span>04</span>
+            <h3>Workforce mix</h3>
+            <p>Accounted for role-level needs and headcount composition.</p>
+          </article>
+        </div>
+
+        <ol class="process" aria-label="Five-step modeling workflow">
+          <li><strong>Audit</strong><span>Compared the legacy signal with market characteristics.</span></li>
+          <li><strong>Build</strong><span>Created separate cost and travel-difficulty indexes.</span></li>
+          <li><strong>Stress-test</strong><span>Evaluated distributions, outliers, and ranking sensitivity.</span></li>
+          <li><strong>Compare</strong><span>Flagged potential over- and under-allocation.</span></li>
+          <li><strong>Operationalize</strong><span>Structured outputs for recurring planning cycles.</span></li>
+        </ol>
+
+        <div class="judgment-call">
+          <p class="eyebrow">ANALYTICAL JUDGMENT</p>
+          <p>
+            Non-contiguous geographies created artificial distance spikes. I
+            evaluated log transformation, cube-root transformation, and capping to
+            reduce outlier influence without flattening meaningful business
+            differences.
+          </p>
+          <strong>Preserve the business signal, not just the distribution.</strong>
+        </div>
+      </section>
+
+      <section class="section" id="impact">
+        <div class="section-heading compact">
+          <p class="eyebrow">RESULTS &amp; IMPACT</p>
+          <h2>Better logic. Better conversations. A repeatable process.</h2>
+        </div>
+
+        <div class="impact-grid">
+          <article>
+            <p class="number">01</p>
+            <h3>Headcount was not enough</h3>
+            <p>Comparable staffing levels could mask very different travel burdens and local cost structures.</p>
+          </article>
+          <article>
+            <p class="number">02</p>
+            <h3>Cost and distance told different stories</h3>
+            <p>Separating the signals clarified whether local prices or service geography drove the need.</p>
+          </article>
+          <article>
+            <p class="number">03</p>
+            <h3>The legacy index could misdirect funds</h3>
+            <p>The multi-factor view surfaced potential allocation gaps hidden by one cost measure.</p>
+          </article>
+        </div>
+
+        <div class="deliverable">
+          <div>
+            <p class="eyebrow">DELIVERABLE</p>
+            <h2>A sustainable allocation framework</h2>
+          </div>
+          <ul>
+            <li>Two complementary planning indexes</li>
+            <li>A transparent comparison with the existing method</li>
+            <li>A process to refresh inputs each planning cycle</li>
+            <li>Outputs designed for adoption in existing templates</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section contact" id="contact">
+        <p class="eyebrow">ABOUT THE ANALYST</p>
+        <h2>Jayden Myers</h2>
+        <p>
+          Finance student at Rutgers Business School with experience in FP&amp;A,
+          budgeting and forecasting, variance analysis, and financial modeling.
+        </p>
+        <div class="contact-links">
+          <a href="mailto:jjm619@scarletmail.rutgers.edu">Email</a>
+          <a href="https://www.linkedin.com/in/jayden-myers-913070389">LinkedIn</a>
+          <a href="assets/Jayden_Myers_TandE_Budget_Optimization_Case_Study.pdf">Case study PDF</a>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>© 2026 Jayden Myers</p>
+      <p>Public portfolio version: proprietary names, formulas, and market-level details removed.</p>
+    </footer>
+  </body>
+</html>
