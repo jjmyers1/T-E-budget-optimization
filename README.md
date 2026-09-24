@@ -1,12 +1,12 @@
-# Travel & Entertainment Expense Budget Allocation Optimization
+# Travel & Entertainment Expense Budget Allocation and Forecasting Processes Optimization
 
-An anonymized finance internship case study by **Jayden Myers** focused on improving travel and entertainment expense budget allocation through multi-factor financial modeling.
+An anonymized finance internship case study by **Jayden Myers** focused on improving travel and entertainment expense budget allocation and forecasting processes through multi-factor financial modeling.
 
 ## Project overview
 
-The existing planning approach relied heavily on a basic cost index, which did not fully capture how customer density, local costs, travel distance, and workforce composition affected regional T&E needs.
+The existing planning and forecasting approach relied heavily on a basic cost index, which did not fully capture how customer density, local costs, travel distance, and workforce composition affected regional T&E needs.
 
-I developed separate cost and travel-difficulty indexes, compared them with the existing planning index, tested the results for outliers and sensitivity, and structured the outputs for recurring planning cycles. The analysis supported reallocating resources in both directions: increasing support where needed and reducing or rebalancing it elsewhere.
+I developed separate cost and travel-difficulty indexes, applied them to improve regional budget forecasts, compared the results with the existing planning index, tested the outputs for outliers and sensitivity, and structured the process for recurring planning cycles. The analysis improved forecast accuracy and supported reallocating resources in both directions: increasing support where needed and reducing or rebalancing it elsewhere.
 
 ## Selected results
 
@@ -18,6 +18,7 @@ I developed separate cost and travel-difficulty indexes, compared them with the 
 ## Skills demonstrated
 
 - Financial planning and analysis
+- Budget allocation and forecasting process optimization
 - Budgeting and forecasting
 - Financial modeling
 - Variance analysis
